@@ -1,6 +1,14 @@
 <?xml version='1.0'?>
 
 <robot name="udacity_bot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <xacro:include filename="$(find udacity_bot)/urdf/udacity_bot.gazebo" />
+  <material name="blue">
+    <color rgba="0 0 0.8 1"/>
+  </material>
+
+  <material name="white">
+    <color rgba="1 1 1 1"/>
+  </material>
 
   <link name="robot_footprint"></link>
 
@@ -35,6 +43,9 @@
       <geometry>
         <box size=".4 .2 .1"/>
       </geometry>
+      <material name="Cyan">
+        <color rgba="0 1.0 1.0 1.0"/>
+      </material>
     </visual>
 
 
