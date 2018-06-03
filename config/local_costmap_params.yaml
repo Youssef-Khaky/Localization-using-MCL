@@ -3,8 +3,8 @@ local_costmap:
    robot_base_frame: robot_footprint
    update_frequency: 30.0
    publish_frequency: 30.0
-   width: 20.0
-   height: 20.0
+   width: 5.0 #was 20, shouldnt this be maxed out by the obstacle_range
+   height: 5.0 #was 20, shouldnt this be maxed out by the obstacle_range
    resolution: 0.05
    static_map: false
    rolling_window: true
