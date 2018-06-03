@@ -6,8 +6,8 @@ raytrace_range: 3.0
 
 transform_tolerance: 0.3
 
-robot_radius: 0.3 
-inflation_radius: 0.55
+robot_radius: 0.3  #0.3 works
+inflation_radius: 0.55 ##0.55 works
 
 observation_sources: laser_scan_sensor
 

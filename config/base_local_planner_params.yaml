@@ -9,3 +9,4 @@ TrajectoryPlannerROS:
   acc_lim_y: 2.5
 
   holonomic_robot: true
+  meter_scoring: true #should remove this error "Map update loop missed its desired rate of 30.0000Hz... the loop actually took 0.0620 seconds"
